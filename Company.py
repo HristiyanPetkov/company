@@ -22,7 +22,6 @@ class Company():
     def add_employee(self):
         name = input("Enter name: ")
         email = input("Enter email: ")
-        print()
         self.employees.append(Employee(name, email))
     
     def print_employees(self):
